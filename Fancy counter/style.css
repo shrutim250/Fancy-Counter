@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: cadetblue;
+}
+
+.container {
+    position: relative;
+   
+}
+
+
+.btn-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn {
+    width: 200px;
+    height: 250px;
+    font-size:  xx-large;
+    color: aqua;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dec, .inc {
+    position: absolute;
+    font-size: 150px;
+    cursor: pointer;
+}
+
+.dec {
+    left: -60px; /* Adjust this value to control the distance from the button */
+   padding-top: 65%;
+}
+
+.inc {
+    right: -60px; /* Adjust this value to control the distance from the button */
+    margin: 0px;
+}
